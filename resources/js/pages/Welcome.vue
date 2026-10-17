@@ -7,7 +7,7 @@ const page = usePage();
 </script>
 
 <template>
-    <Head title="Welcome" />
+    <Head title="Home" />
 
     <div
         class="bg-background text-foreground flex min-h-svh flex-col p-6 md:p-10"

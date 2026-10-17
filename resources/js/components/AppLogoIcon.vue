@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Rocket } from '@lucide/vue';
+import { MessageCircleQuestionMark } from '@lucide/vue';
 import type { HTMLAttributes } from 'vue';
 
 // The app's icon, used in the sidebar, the sign-in pages, the home page and the
@@ -17,5 +17,5 @@ defineProps<Props>();
 </script>
 
 <template>
-    <Rocket :class="className" v-bind="$attrs" />
+    <MessageCircleQuestionMark :class="className" v-bind="$attrs" />
 </template>
